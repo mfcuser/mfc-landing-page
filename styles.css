@@ -5,6 +5,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 430px;
+    padding-right: 420px;
+    flex-shrink: 0;
 }
 
 .header h3 {
@@ -23,6 +26,16 @@
 
 .awsome-website {
     background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.awsome-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .awsome-info h1 {
@@ -43,3 +56,11 @@
 
 
 }
+
+.awsome-website img {
+    width: 30%;
+    height: auto;
+}
+
+/* info page part */
+
