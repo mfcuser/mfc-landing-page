@@ -1,3 +1,4 @@
+
 /* header part */
 
 .header {
@@ -8,6 +9,7 @@
     padding-left: 430px;
     padding-right: 420px;
     flex-shrink: 0;
+    gap: 200px;
 }
 
 .header h3 {
@@ -63,8 +65,10 @@
 .awsome-website img {
     width: 30%;
     height: auto;
-    display: flex;
+    display: flex;    
     flex-shrink: 0;
+    padding: 30px;
+
 }
 
 /* info page part */
@@ -86,6 +90,8 @@
 .info-container img {
     width: 60%;
     height: auto;
+    display: flex;
+    justify-content: center;
 }
 
 /* quotes page */
@@ -105,5 +111,40 @@
 .quotes-page footer {
     display: flex;
     justify-content: flex-end;
+}
+
+/* call to action page */
+
+.action-background {
+    background-color: #3882F6;
+    display: flex;
+    margin: 30px;
+    justify-content: space-evenly;
+    padding: 10px; 
+    margin-right: 300px;
+    margin-left: 300px;
+    border-radius: 2%;
+    color: #E5E7EB;
+}
+
+#end-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    border-color: #E5E7EB;
+    font-weight: bold;
+    border-width: 5px;
+    border-style:solid;
+}
+
+/* end footer */
+
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
